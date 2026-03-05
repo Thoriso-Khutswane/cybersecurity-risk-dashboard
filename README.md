@@ -1,6 +1,6 @@
 
-## Cybersecurity Risk & Vulnerability Management Dashboard
-**[SQL Server] | [Power BI]**
+## Cybersecurity Risk & Vulnerability Management Dashboard **[SQL Server] | [Power BI]**
+
 
 ### Project Overview
 - **Role:** IT Risk Data Analyst (Intern, Momentum Group)
