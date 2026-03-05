@@ -23,8 +23,8 @@ Created a centralized dashboard connecting Nessus vulnerability data with compan
 
 ### Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
 Simulated Nessus Data: In  the real we used real data obtained from real scans and other datasources such as sharepoint lists, but in this project we will use simulated data. These simulated data was generated using python "Run: python generate_csv_files.py", generate_csv_files.py being the script. Running this script generated 4 files as show in the figure below.
+
 Generating csv files for the dashboard: <br/>
 <img src="https://i.imgur.com/4aS7VfQ.png" width="80%" alt="Disk Sanitization Steps"/>
 <br />
