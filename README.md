@@ -4,6 +4,9 @@
 ### Overview
 This project showcases my previous working experience as an IT Risk Data Analyst (Intern, Momentum Group), focusing on  developing a real-time vulnerability visibility dashboard for risk teams.
 #### Power Bi Concepts Applied
+- Dax, Calculated Columns
+- Relationsphins(e.g Cardinality,Filters)
+- Data Modeling(Star Schema Approche)
 
 ## Key Focus Areas:
 - Data Sourcing
