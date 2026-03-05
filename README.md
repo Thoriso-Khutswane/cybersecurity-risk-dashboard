@@ -1,22 +1,66 @@
-## Cybersecurity Risk & Vulnerability Management Dashboard 
-**[SQL Server] | [Power BI]**
+# cybersecurity-risk-dashboard
 
-### Project Overview
-- **Role:** IT Risk Data Analyst (Intern, Momentum Group)
-- **Objective:** Develop real-time vulnerability visibility dashboard for risk teams
-- **Impact:** Reduced remediation time from 10-15 days to 72 hours
-- **Duration:** 1 year 2 months
+
+### Overview
+This project showcases my previous working experience as an IT Risk Data Analyst (Intern, Momentum Group), focusing on  developing a real-time vulnerability visibility dashboard for risk teams.
+# Power Bi Concepts Applied
+
+## Key Focus Areas:
+- Data Sourcing
+- Data Transformation/Cleaning/ETL
+- Data Modeling
+- Data Analysis And Visuals
+- Dashboard Automation (Scheduled Refreshes & Gateways)
 
 ### Business Context
+---
 Created a centralized dashboard connecting Nessus vulnerability data with company asset inventory (Critical Servers, DMZ zones, BYOD devices). Enabled risk managers to identify, prioritize, and remediate vulnerabilities faster.
 
-### Skills Demonstrated
-- **SQL Server:** Data modeling, INNER/LEFT JOINs, window functions, CTEs
-- **Power BI:** Multi-page dashboards, DAX formulas, slicers, scheduled refresh
-- **Data Analysis:** Vulnerability prioritization, remediation tracking, OWASP categorization
+![bar plot](https://github.com/Irene-arch/Documenting_Example/assets/56026296/5ebedeb8-65e4-4f09-a2a5-0699119f5ff7)//DashbordPicturePowerBI
 
-### Key Metrics
-- **1,000 vulnerabilities** analyzed across 100+ critical servers
-- **88% remediation rate** - 73% mitigated in 72 hours
-- **4 business units** tracked (IT, Finance, Marketing, Health)
-- **OWASP Top 4** vulnerability categories monitored
+
+### Data Sources
+
+Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+
+### Tools
+
+- Excel - Data Cleaning
+  - [Download here](https://microsoft.com)
+- SQL Server - Data Analysis
+- PowerBI - Creating reports
+
+
+### Data Cleaning/Preparation
+
+In the initial data preparation phase, we performed the following tasks:
+1. Data loading and inspection.
+2. Handling missing values.
+3. Data cleaning and formatting.
+
+### Exploratory Data Analysis
+
+EDA involved exploring the sales data to answer key questions, such as:
+
+- What is the overall sales trend?
+- Which products are top sellers?
+- What are the peak sales periods?
+
+### Data Analysis
+
+Include some interesting code/features worked with
+
+```sql
+SELECT * FROM table1
+WHERE cond = 2;
+```
+
+### Results & Recommendations
+
+The analysis results are summarized as follows:
+1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
+2. Product Category A is the best-performing category in terms of sales and revenue.
+3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+
+
+
