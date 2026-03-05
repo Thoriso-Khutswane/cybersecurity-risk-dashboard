@@ -29,12 +29,6 @@ Simulated Data: In  the real I used real data obtained from real scans and other
 - Dim_DMZ.csv with 134 (Dimention Table)
 - Dim_BYOD_Devices.csv with 500 (Dimention Table)
  
-
-Generating csv files for the dashboard: <br/>
-<img src="https://github.com/Thoriso-Khutswane/cybersecurity-risk-dashboard/blob/main/GeneratingCSVFilesForCybersecurityRiskDashboard.png" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Creates 4 CSV files in current directory 
 ### Tools
 
 - Excel - Data Cleaning
