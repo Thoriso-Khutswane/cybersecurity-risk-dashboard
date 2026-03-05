@@ -1,6 +1,6 @@
-# Cybersecurity Risk & Vulnerability Management Dashboard
+## Cybersecurity Risk & Vulnerability Management Dashboard
 
-## Overview
+### Overview
 This project showcases my previous working experience as an  IT Risk Data Analyst Associate at Momentum Group, focusing on  developing a real-time vulnerability visibility dashboard for risk teams.
 #### Power Bi Concepts Applied
 - Dax, Calculated Columns
