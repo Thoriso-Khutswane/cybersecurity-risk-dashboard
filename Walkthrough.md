@@ -1,7 +1,7 @@
 
-<h2>Program walk-through:</h2>
+<h2>Generating CSV files using python:</h2>
 
 Download Nessus: <br/>
-<img src="https://i.imgur.com/4aS7VfQ.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Thoriso-Khutswane/cybersecurity-risk-dashboard/blob/main/GeneratingCSVFilesForCybersecurityRiskDashboard.png"/>
 <br />
 <br />
