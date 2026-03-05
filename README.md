@@ -1,6 +1,6 @@
 
 ## Cybersecurity Risk & Vulnerability Management Dashboard  
-### [SQL Server] | [Power BI]
+** [SQL Server] | [Power BI]
 ### Project Overview
 - **Role:** IT Risk Data Analyst (Intern, Momentum Group)
 - **Objective:** Develop real-time vulnerability visibility dashboard for risk teams
