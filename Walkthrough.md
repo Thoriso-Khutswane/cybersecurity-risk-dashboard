@@ -1,7 +1,7 @@
 
-<h1>Project Walkthrough:</h1>
+<h2>Project Walkthrough:</h2>
 
-<h2>Generating CSV files using python:</h2> <br/>
+Generating CSV files using python: <br/>
 <img src="https://github.com/Thoriso-Khutswane/cybersecurity-risk-dashboard/blob/main/GeneratingCSVFilesForCybersecurityRiskDashboard.png"/>
 <br />
 <br />
