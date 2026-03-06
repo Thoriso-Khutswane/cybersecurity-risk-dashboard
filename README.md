@@ -18,7 +18,7 @@ This project showcases my previous working experience as an  IT Risk Data Analys
 ---
 Created a centralized dashboard connecting Nessus vulnerability data with company asset inventory (Critical Servers, DMZ zones, BYOD devices). Enabled risk managers to identify, prioritize, and remediate vulnerabilities faster.
 
-![bar plot](https://github.com/Irene-arch/Documenting_Example/assets/56026296/5ebedeb8-65e4-4f09-a2a5-0699119f5ff7)//DashbordPicturePowerBI
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/HomeTab.png)//DashbordPicturePowerBI
 
 
 ### Data Sources
