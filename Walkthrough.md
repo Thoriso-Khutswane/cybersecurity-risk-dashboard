@@ -25,7 +25,7 @@
 <br />
 <br />
 
-- Inspections(There are no unmaged assets, the table is empty):
+- Inspections(There are no unmaged assets, the table are empty):
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Inspections.png"/>
 <br />
 <br />
