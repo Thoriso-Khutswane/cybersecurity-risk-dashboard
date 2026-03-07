@@ -9,7 +9,7 @@
 <br />
 <br />
 
-2. Database creation & data import: <br/>
+3. Data cleaning and formatting: <br/>
 <img src=""/>
 <br />
 <br />
