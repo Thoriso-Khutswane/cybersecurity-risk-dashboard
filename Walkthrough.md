@@ -24,6 +24,7 @@
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataImportSuccess.png"/>
 <br />
 <br />
+
 - Inspections(There are no unmaged assets, the table is empty):
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Inspections.png"/>
 <br />
