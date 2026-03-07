@@ -35,7 +35,7 @@
 <br />
 <br />
 
-4. Data intergration and Data Model: <br/>
+4. Data Intergration and Data Modelling: <br/>
 
 
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataIntergration.png"/>
