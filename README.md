@@ -42,9 +42,12 @@ Simulated Data: In  the real I used real data obtained from real scans and other
 
 In the initial data preparation phase, we performed the following tasks:
 1. Data cleaning and formatting.
-- Data was effectively cleaned using Microsoft Excel, e.g. **CSV Parsing:** converting a comma-separated file into proper columns. . Making **first rows as headers** in the Dim_BYOD_Devices table.
+- Data was effectively cleaned using Microsoft Excel, e.g. **CSV Parsing:** converting a comma-separated file into proper columns. . Making first rows as headers in the Dim_BYOD_Devices table.
   
 2.Data loading and inspection
+- A database named CybersecurityRiskDashboard was created
+- csv files were loaded into the database
+- Inspections were conducted using sql queries
 
 ### Exploratory Data Analysis
 
