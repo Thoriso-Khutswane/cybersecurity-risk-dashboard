@@ -78,7 +78,7 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
 - Connected Power BI to SQL Server to extract vulnerability and asset inventory data for analysis
 - I followed a star-schema approach, separating fact table from dimension tables, The Fact_Vulnerabilities table is the Fact table and other tables are dimension tables.
 - I also paid a closer attension to relationships,cardinality and filter directions to avoid confusion
-
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel.png)
   
 
 ### Data Analysis
