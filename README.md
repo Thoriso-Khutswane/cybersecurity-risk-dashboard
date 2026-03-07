@@ -56,10 +56,6 @@ CREATE DATABASE CybersecurityRiskDashboard;
 
   - Query 2: LEFT JOIN - Find vulnerabilities on unknown/unmanaged IPs
 ```sql
-PRINT '========================================';
-PRINT 'QUERY 2: LEFT JOIN - Unmanaged Assets with Vulnerabilities';
-PRINT '========================================';
-
 SELECT 
     v.VulnerabilityID,
     v.IPAddress,
@@ -75,7 +71,6 @@ LEFT JOIN Dim_Critical_Servers s
 WHERE s.ServerID IS NULL  -- These are unmanaged IPs
 ORDER BY v.Severity DESC, v.CVSSScore DESC;
 
-GO
 ```
 
 ### Exploratory Data Analysis
