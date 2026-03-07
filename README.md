@@ -45,11 +45,14 @@ In the initial data preparation phase, we performed the following tasks:
 - Data was effectively cleaned using Microsoft Excel, e.g. **CSV Parsing:** converting a comma-separated file into proper columns. . Making first rows as headers in the Dim_BYOD_Devices table.
   
 2.Data loading and inspection
-- A database named CybersecurityRiskDashboard was created in ssms
-- csv files were loaded into the database
+- A database named CybersecurityRiskDashboard was created in ssms, and csv files were loaded into the database
+ - Query 1: Database creation.
+ ```sql
+CREATE DATABASE CybersecurityRiskDashboard;
+```
 - Inspections were conducted using sql queries
 
-  - Query 1: LEFT JOIN - Find vulnerabilities on unknown/unmanaged IPs
+  - Query 2: LEFT JOIN - Find vulnerabilities on unknown/unmanaged IPs
 ```sql
 PRINT '========================================';
 PRINT 'QUERY 2: LEFT JOIN - Unmanaged Assets with Vulnerabilities';
