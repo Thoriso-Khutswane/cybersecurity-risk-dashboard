@@ -14,8 +14,14 @@
 <br />
 <br />
 
-3. Data cleaning and formatting: <br/>
-<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataCleaning%26Formatting.png"/>
+3. Database creation, data loading and inspection: <br/>
+
+- Database created successfully:
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataBaseCreation2.png"/>
+<br />
+
+- Data loaded/imported successfully:
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataImportSuccess.png"/>
 <br />
 <br />
 
