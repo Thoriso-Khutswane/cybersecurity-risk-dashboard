@@ -8,3 +8,8 @@
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/GeneratingCSVFilesForCybersecurityRiskDashboard.png"/>
 <br />
 <br />
+
+2. Database creation & data import: <br/>
+<img src=""/>
+<br />
+<br />
