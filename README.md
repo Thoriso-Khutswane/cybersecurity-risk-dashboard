@@ -46,7 +46,7 @@ In the initial data preparation phase, we performed the following tasks:
    - Making first rows as headers in the Dim_BYOD_Devices table.
   
 2. Database creation, data loading and inspection
-   - A database named CybersecurityRiskDashboard was created in ssms, and csv files were loaded into the database
+   - A database named **CybersecurityRiskDashboard** was created in ssms, and csv files were loaded into the database
   
   - Query 1: Database creation.
  ```sql
