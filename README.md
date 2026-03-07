@@ -81,7 +81,7 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel.png)
   
 
-### Data Analysis
+### Data Analysis and Visuals
 
 Include some interesting code/features worked with
 
