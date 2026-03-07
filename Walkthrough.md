@@ -13,3 +13,9 @@
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataCleaning%26Formatting.png"/>
 <br />
 <br />
+
+3. Data cleaning and formatting: <br/>
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataCleaning%26Formatting.png"/>
+<br />
+<br />
+
