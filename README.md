@@ -10,6 +10,7 @@ This project showcases my previous working experience as an  IT Risk Data Analys
 ## Key Focus Areas:
 - Data Sourcing
 - Data Transformation/Cleaning/ETL
+- Data Integration(Integrated data from Microsoft SQL Server into Microsoft Power BI)
 - Data Modeling
 - Data Analysis And Visuals
 - Dashboard Automation (Scheduled Refreshes & Gateways)
@@ -73,13 +74,12 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
 
 ```
 
-### Exploratory Data Analysis
+### Data Integration & Data Modelling
+- Connected Power BI to SQL Server to extract vulnerability and asset inventory data for analysis
+- I followed a star-schema approach, separating fact table from dimension tables, The Fact_Vulnerabilities table is the Fact table and other tables are dimension tables.
+- I also paid a closer attension to relationships,cardinality and filter directions to avoid confusion
 
-EDA involved exploring the sales data to answer key questions, such as:
-
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
+  
 
 ### Data Analysis
 
