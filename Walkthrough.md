@@ -25,3 +25,8 @@
 <br />
 <br />
 
+- Table Design:
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/FactTableDesign.png"/>
+<br />
+<br />
+
