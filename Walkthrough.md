@@ -35,7 +35,7 @@
 <br />
 <br />
 
-3. Data intergration: <br/>
+4. Data intergration and Data Model: <br/>
 
 - Database created successfully:
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataIntergration.png"/>
