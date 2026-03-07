@@ -45,9 +45,33 @@ In the initial data preparation phase, we performed the following tasks:
 - Data was effectively cleaned using Microsoft Excel, e.g. **CSV Parsing:** converting a comma-separated file into proper columns. . Making first rows as headers in the Dim_BYOD_Devices table.
   
 2.Data loading and inspection
-- A database named CybersecurityRiskDashboard was created
+- A database named CybersecurityRiskDashboard was created in ssms
 - csv files were loaded into the database
 - Inspections were conducted using sql queries
+
+  - Query 1: LEFT JOIN - Find vulnerabilities on unknown/unmanaged IPs
+```sql
+PRINT '========================================';
+PRINT 'QUERY 2: LEFT JOIN - Unmanaged Assets with Vulnerabilities';
+PRINT '========================================';
+
+SELECT 
+    v.VulnerabilityID,
+    v.IPAddress,
+    COALESCE(s.ServerName, 'UNMANAGED - NOT IN INVENTORY') AS ServerName,
+    COALESCE(s.BusinessUnit, 'UNKNOWN') AS BusinessUnit,
+    v.VulnerabilityName,
+    v.Severity,
+    v.CVSSScore,
+    v.DetectionDate
+FROM Fact_Vulnerabilities v
+LEFT JOIN Dim_Critical_Servers s 
+    ON v.IPAddress = s.IPAddress
+WHERE s.ServerID IS NULL  -- These are unmanaged IPs
+ORDER BY v.Severity DESC, v.CVSSScore DESC;
+
+GO
+```
 
 ### Exploratory Data Analysis
 
