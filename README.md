@@ -60,7 +60,8 @@ EDA involved exploring the sales data to answer key questions, such as:
 ### Data Analysis
 
 Include some interesting code/features worked with
-Query 1:
+
+- Query 1:
 ```sql
 SELECT * FROM table1
 WHERE cond = 2;
