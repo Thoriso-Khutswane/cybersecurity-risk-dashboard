@@ -46,7 +46,8 @@ In the initial data preparation phase, we performed the following tasks:
   
 2.Data loading and inspection
 - A database named CybersecurityRiskDashboard was created in ssms, and csv files were loaded into the database
- - Query 1: Database creation.
+  
+  - Query 1: Database creation.
  ```sql
 CREATE DATABASE CybersecurityRiskDashboard;
 ```
