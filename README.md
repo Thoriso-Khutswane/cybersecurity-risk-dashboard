@@ -84,7 +84,7 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
 ### Data Analysis and Visuals
 1. Created Dax Measures to calculate the number of critical vulnerabilities, number of remediated vulnerabilities, and remediation rate.
    
--Number of critical vulnerabilities
+ - Number of critical vulnerabilities: 
 ```dax
 Critical Vulnerabilities = 
 CALCULATE(
@@ -92,7 +92,14 @@ COUNT(Fact_Vulnerabilities[VulnerabilityName]),
 Fact_Vulnerabilities[Severity] = "Critical"
 )
 ```
-
+-number of remediated vulnerabilities: 
+```dax
+Remediated =
+CALCULATE(
+COUNT(Fact_Vulnerabilities[VulnerabilityName]),
+Fact_Vulnerabilities[Status] = "Remediated"
+)
+```
 ### Results & Recommendations
 
 The analysis results are summarized as follows:
