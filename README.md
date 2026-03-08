@@ -82,8 +82,9 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
   
 
 ### Data Analysis and Visuals
-1. Created a Dax Measure to calculate the number of critical vulnerabilities, and displayed it in a card.
-
+1. Created Dax Measures to calculate the number of critical vulnerabilities, number of remediated vulnerabilities, and remediation rate.
+   
+-Number of critical vulnerabilities
 ```dax
 Critical Vulnerabilities = 
 CALCULATE(
