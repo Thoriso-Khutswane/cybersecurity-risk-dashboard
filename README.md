@@ -3,7 +3,7 @@
 ## Overview
 This project showcases my previous working experience as an  IT Risk Data Analyst Associate at Momentum Group, focusing on  developing a real-time vulnerability visibility dashboard for risk teams.
 #### Power Bi Concepts Applied
-- Dax, Calculated Columns
+- Dax, Measures
 - Table Relationships (Cardinality[one-to-many],Filters)
 - Data Modeling (star schema approach)
 
@@ -82,13 +82,14 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
   
 
 ### Data Analysis and Visuals
+Created a Dax Measure to calculate the number of critical vulnerabilities, and displayed it in a card.
 
-Include some interesting code/features worked with
-
-- Query 1:
-```sql
-SELECT * FROM table1
-WHERE cond = 2;
+```dax
+Critical Vulnerabilities = 
+CALCULATE(
+COUNT(Fact_Vulnerabilities[VulnerabilityName]),
+Fact_Vulnerabilities[Severity] = "Critical"
+)
 ```
 
 ### Results & Recommendations
