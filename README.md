@@ -92,12 +92,21 @@ COUNT(Fact_Vulnerabilities[VulnerabilityName]),
 Fact_Vulnerabilities[Severity] = "Critical"
 )
 ```
--number of remediated vulnerabilities: 
+- Number of remediated vulnerabilities:
+  
 ```dax
 Remediated =
 CALCULATE(
 COUNT(Fact_Vulnerabilities[VulnerabilityName]),
 Fact_Vulnerabilities[Status] = "Remediated"
+)
+```
+- Remediation rate:
+  
+```dax
+Remediation Rate % =
+DIVIDE([Remediated],
+COUNT(Fact_Vulnerabilities[VulnerabilityName])
 )
 ```
 ### Results & Recommendations
