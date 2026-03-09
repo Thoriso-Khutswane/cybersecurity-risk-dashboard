@@ -113,7 +113,8 @@ COUNT(Fact_Vulnerabilities[VulnerabilityName])
 ```
 
 - Mean Time to Remediate (MTTR):
-  
+
+  Shows average time taken to fix vulnerabilities.
 ```dax
 MTTR =
 AVERAGE(Fact_Vulnerabilities[RemediationDays])
