@@ -93,6 +93,7 @@ Fact_Vulnerabilities[Severity] = "Critical"
 )
 ```
 - Number of remediated vulnerabilities:
+
 N.B: You can check weather a vulnerability has been remediated or not by comparing your current nessus scans data with your previous scans data. If a vulnerability does not appear in the current data, it has been resolved/remediated. All of this can be accomplished by using ssms. 
   
 ```dax
@@ -109,6 +110,13 @@ Remediation Rate % =
 DIVIDE([Remediated],
 COUNT(Fact_Vulnerabilities[VulnerabilityName])
 )
+```
+
+- Mean Time to Remediate (MTTR):
+  
+```dax
+MTTR =
+AVERAGE(Fact_Vulnerabilities[RemediationDays])
 ```
 ### Results & Recommendations
 
