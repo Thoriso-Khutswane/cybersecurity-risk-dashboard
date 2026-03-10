@@ -13,7 +13,7 @@ This project showcases my previous working experience as an  IT Risk Data Analys
 - Data Integration(Integrated data from Microsoft SQL Server into Microsoft Power BI)
 - Data Modeling
 - Data Analysis And Visuals
-- Dashboard Automation (Scheduled Refreshes & Gateways)
+- Dashboard Automation (Power BI Services, Scheduled Refreshes & Gateways)
 
 ### Business Context
 ---
@@ -85,6 +85,8 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
   
 
 ### Data Analysis and Visuals
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/ExecutiveOverview.png)
+
 1. Created Dax Measures to calculate the number of critical vulnerabilities, number of remediated vulnerabilities, and remediation rate.
    
  - Number of critical vulnerabilities: 
