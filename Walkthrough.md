@@ -40,9 +40,13 @@
 - Get Data: 
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataIntergration.png"/>
 <br />
-- Get Data:Relationships & Cardinality
+
+- Relationships & Cardinality:
+     
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Relationships%26Cardinality.png"/>
+
 - Start Schema Model:
+  
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png"/>
 <br />
 
