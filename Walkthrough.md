@@ -41,6 +41,6 @@
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataIntergration.png"/>
 <br />
 
-<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel.png"/>
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Relationships%26Cardinality.png"/>
 <br />
 
