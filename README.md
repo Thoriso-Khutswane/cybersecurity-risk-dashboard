@@ -87,7 +87,7 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
 ### Data Analysis and Visuals
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/ExecutiveOverview.png)
 
-1. In the dashboard above it is clear that , I created measures to calculate the number of critical vulnerabilities, number of remediated vulnerabilities, remediation rate,  mean time to remediate, created a new table(Assets) and an an extra column in all dimension table called (Asset Type).
+In the dashboard above it is clear that , I created measures to calculate the number of critical vulnerabilities, number of remediated vulnerabilities, remediation rate,  mean time to remediate, created a new table(Assets) and an an extra column in all dimension table called (Asset Type).
    
  - Number of critical vulnerabilities: 
 ```dax
@@ -98,6 +98,7 @@ Fact_Vulnerabilities[Severity] = "Critical"
 )
 ```
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Total%26CriticalVulns.png)
+
 In the dashboard it is abserved that the total number of critical vulnerabilities is equal to 1000, and the total number of critical vulnerabilities is equals to 300. 
 
 - Number of remediated vulnerabilities:
@@ -110,8 +111,10 @@ Fact_Vulnerabilities[Status] = "Remediated"
 )
 ```
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Remediated.png)
-In the dashboard it is observed that the total number of remediated vulnerabilities is 884, leaving 116 systems
-N.B: You can check weather a vulnerability has been remediated or not by comparing your current nessus scans data with your previous scans data. If a vulnerability does not appear in the current data, it has been resolved/remediated. All of this can be accomplished by using ssms.
+
+In the dashboard it is observed that the total number of remediated vulnerabilities is 884, leaving 116 systems still exposed.
+
+**Note**: You can check weather a vulnerability has been remediated or not by comparing your current nessus scans data with your previous scans data. If a vulnerability does not appear in the current data, it has been resolved/remediated. All of this can be accomplished by using ssms.
 - Remediation rate:
   
 ```dax
@@ -121,6 +124,7 @@ COUNT(Fact_Vulnerabilities[VulnerabilityName])
 )
 ```
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/RemediationRate.png)
+
 In the dashboard it is observed that the remiation rate of the Nessus vulnerabilities is 88.4%.
 - Mean Time to Remediate (MTTR):
 
@@ -130,7 +134,20 @@ MTTR =
 AVERAGE(Fact_Vulnerabilities[RemediationDays])
 ```
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/MeanTimeToRemediate.png)
+
 It took cyber security professionals average of 3 days to remediate 884 vulnerablities
+
+
+### Dashboard Automation (Power BI Services, Scheduled Refreshes & Gateways)
+
+
+
+
+
+
+
+
+
 ### Results & Recommendations
 
 The analysis results are summarized as follows:
