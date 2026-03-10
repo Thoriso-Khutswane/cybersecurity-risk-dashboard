@@ -45,7 +45,7 @@
      
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Relationships%26Cardinality.png"/>
 
-- Start Schema Model:
+- Star Schema Model:
   
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png"/>
 <br />
