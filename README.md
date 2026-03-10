@@ -138,6 +138,25 @@ AVERAGE(Fact_Vulnerabilities[RemediationDays])
 It took cyber security professionals average of 3 days to remediate 884 vulnerablities
 
 
+ - Assets Table:
+   -Created a column in all dimensional tables called Asset Type, used to create the asset table
+```dax
+Asset Type = "e.g BYOD Device, DMZ System"
+```
+
+
+```dax
+Assets = 
+UNION(
+SELECTCOLUMNS(Dim_Critical_Servers,"Asset Type","Critical Server","IP",Dim_Critical_Servers[IPAddress]),
+SELECTCOLUMNS(Dim_DMZ,"Asset Type","DMZ System","IP",Dim_DMZ[IPAddress]),
+SELECTCOLUMNS(Dim_BYOD_Devices,"Asset Type","BYOD Device","IP",Dim_BYOD_Devices[IPAddress])
+)
+```
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Total%26CriticalVulns.png)
+
+In the dashboard it is abserved that the total number of critical vulnerabilities is equal to 1000, and the total number of critical vulnerabilities is equals to 300. 
+
 ### Dashboard Automation (Power BI Services, Scheduled Refreshes & Gateways)
 
 
