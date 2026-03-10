@@ -37,10 +37,12 @@
 
 4. Data Intergration and Data Modelling: <br/>
 
-
+- Get Data: 
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataIntergration.png"/>
 <br />
-
+- Get Data:Relationships & Cardinality
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Relationships%26Cardinality.png"/>
+- Start Schema Model:
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png"/>
 <br />
 
