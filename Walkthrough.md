@@ -16,21 +16,21 @@
 
 3. Database creation, data loading and inspection: <br/>
 
-- Database created successfully:
+- Create a database:
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataBaseCreation2.png"/>
 <br />
 
-- Data loaded/imported successfully:
+- Import data into ssms:
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataImportSuccess.png"/>
 <br />
 <br />
 
-- Inspections(There are no unmanaged assets, the table is empty):
+- Conduct Data Inspections(There are no unmanaged assets, the table is empty):
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Inspections.png"/>
 <br />
-<br />
+<br /
 
-- Table Design:
+ - Table Design:
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/FactTableDesign.png"/>
 <br />
 <br />
@@ -41,7 +41,7 @@
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataIntergration.png"/>
 <br />
 
--Take a closer look to Relationships & Cardinality:
+-Pay a close attension to Relationships & Cardinality:
      
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Relationships%26Cardinality.png"/>
 
@@ -62,7 +62,7 @@
 
 5. Scheduled Refresh and Gateways:
 
-- Create workspaces, download, insatall, and configured gateways to enable refresh schedule:
+- Create workspaces, download, insatall, and configure gateways to enable refresh schedule:
   
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/WorkSpaceCreationSteps.png"/>
 <br />
