@@ -49,6 +49,8 @@
   
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png"/>
 <br />
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/ExecutiveOverview.png"/>
+<br />
 
 5. Data Analysis and Visuals:
 
