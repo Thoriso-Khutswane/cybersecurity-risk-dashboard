@@ -161,8 +161,15 @@ In the dashboard it is observed that all IP Addresses in the asset inventory hav
 - Vulnerabilities By Severity:
 
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/VulnerabilityBySeverity.png)
+ In the dashboard it clear that vulnerabilities are categorized into low, medium, high, and critical severity. It is observed that there are 80 low vulns, 220 medium, 300 high, and 400 critical.
 
+- Filter by Business Unit:
 
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/FilterBuBusinessUnit.png)
+ You can filter based on the business units which are finance, health, marketing and IT.
+
+ N.B Keep in mind that this model can always be enhanced based on user feedback, meaning it can be designed in way that suits the stakeholders and non-techinical individuals.
+ 
 ### Dashboard Automation (Power BI Services, Scheduled Refreshes & Gateways)
 
 
