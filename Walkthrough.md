@@ -41,11 +41,11 @@
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataIntergration.png"/>
 <br />
 
-- Relationships & Cardinality:
+-Take a closer look to Relationships & Cardinality:
      
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Relationships%26Cardinality.png"/>
 
-- Star Schema Model:
+- Design a Star Schema Model:
   
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png"/>
 <br />
