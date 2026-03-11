@@ -62,3 +62,4 @@
 
 5. Scheduled Refresh and Gateways:
 
+- Created workspaces, downloaded, insatalled, and configured gateways:
