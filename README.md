@@ -4,7 +4,7 @@
 This project showcases my previous working experience as an  IT Risk Data Analyst Associate at Momentum Group, focusing on  developing a real-time vulnerability visibility dashboard for risk teams.
 #### Power Bi Concepts Applied
 - Dax, Measures
-- Table Relationships (Cardinality[one-to-many],Filters)
+- Table Relationships (Cardinality[many-to-one],Filters direction)
 - Data Modeling (star schema approach)
 
 ## Key Focus Areas:
