@@ -153,9 +153,15 @@ SELECTCOLUMNS(Dim_DMZ,"Asset Type","DMZ System","IP",Dim_DMZ[IPAddress]),
 SELECTCOLUMNS(Dim_BYOD_Devices,"Asset Type","BYOD Device","IP",Dim_BYOD_Devices[IPAddress])
 )
 ```
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Total%26CriticalVulns.png)
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/VulnsByAssetType.png)
 
-In the dashboard it is abserved that the total number of critical vulnerabilities is equal to 1000, and the total number of critical vulnerabilities is equals to 300. 
+In the dashboard it is observed that all IP Addresses in the asset inventory have been scanned.  
+
+
+- Vulnerabilities By Severity:
+
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/VulnerabilityBySeverity.png)
+
 
 ### Dashboard Automation (Power BI Services, Scheduled Refreshes & Gateways)
 
