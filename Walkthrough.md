@@ -50,3 +50,9 @@
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png"/>
 <br />
 
+5. Data Analysis and Visuals:
+
+- Create measures and display them on visuals:
+  
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/AllMeasuresVisuals.png"/>
+
