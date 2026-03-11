@@ -187,7 +187,7 @@ To enable scheduled refreshes, so the dashboard can automatically update when ne
 
 
 
-![bar plot](![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/GateWayInstallation%26SuccessRefresh.pptx.png))
+![bar plot](![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/GateWayInstallation%26SuccessRefresh.pptx.png)
 
 
 ### Results & Recommendations
