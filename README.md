@@ -177,13 +177,14 @@ N.B Keep in mind that this model can always be enhanced based on user feedback, 
 
 - Creating a workspace:
 
-To create a workspace used the folliwng method:
+To create a workspace I used the following method:
 
 
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/WorkSpaceCreationSteps.png)
 
 To enable scheduled refreshes, so the dashboard can automatically update when new data is addedd, I used the following method:
 
+![bar plot](![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/GateWayInstallation%26SuccessRefresh.pptx.png))
 
 
 ### Results & Recommendations
