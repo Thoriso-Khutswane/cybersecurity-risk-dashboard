@@ -49,12 +49,16 @@
   
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png"/>
 <br />
-<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/ExecutiveOverview.png"/>
-<br />
+
 
 5. Data Analysis and Visuals:
 
 - Create measures and display them on visuals:
   
 <img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/AllMeasuresVisuals.png"/>
+
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/ExecutiveOverview.png"/>
+<br />
+
+5. Scheduled Refresh and Gateways:
 
