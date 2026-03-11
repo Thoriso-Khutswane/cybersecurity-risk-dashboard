@@ -177,8 +177,10 @@ N.B Keep in mind that this model can always be enhanced based on user feedback, 
 
 - Creating a workspace:
 
+To create a workspace I follwed the folliwng steps:
 
 
+![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos)
 
 
 
