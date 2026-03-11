@@ -166,12 +166,16 @@ In the dashboard it is observed that all IP Addresses in the asset inventory hav
 - Filter by Business Unit:
 
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/FilterBuBusinessUnit.png)
- You can filter based on the business units which are finance, health, marketing and IT.
 
- N.B Keep in mind that this model can always be enhanced based on user feedback, meaning it can be designed in way that suits the stakeholders and non-techinical individuals.
+
+You can filter based on the business units which are finance, health, marketing and IT.
+
+N.B Keep in mind that this model can always be enhanced based on user feedback, meaning it can be designed in way that suits the stakeholders and non-techinical individuals.
+
  
 ### Dashboard Automation (Power BI Services, Scheduled Refreshes & Gateways)
 
+- Creating a workspace:
 
 
 
