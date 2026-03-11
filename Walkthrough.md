@@ -62,4 +62,10 @@
 
 5. Scheduled Refresh and Gateways:
 
-- Created workspaces, downloaded, insatalled, and configured gateways:
+- Create workspaces, download, insatall, and configured gateways to enable refresh schedule:
+  
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/WorkSpaceCreationSteps.png"/>
+<br />
+
+<img src="https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/GateWayInstallation%26SuccessRefresh.pptx.png"/>
+<br />
