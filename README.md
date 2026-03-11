@@ -99,7 +99,7 @@ Fact_Vulnerabilities[Severity] = "Critical"
 ```
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Total%26CriticalVulns.png)
 
-In the dashboard it is abserved that the total number of critical vulnerabilities is equal to 1000, and the total number of critical vulnerabilities is equals to 300. 
+In the dashboard it is observed that the total number of critical vulnerabilities is equal to 1000, and the total number of critical vulnerabilities is equals to 300. 
 
 - Number of remediated vulnerabilities:
     
