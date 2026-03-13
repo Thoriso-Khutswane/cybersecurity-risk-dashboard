@@ -6,6 +6,16 @@ This project showcases my previous working experience as an  IT Risk Data Analys
 - Dax, Measures
 - Table Relationships (Cardinality[many-to-one],Filters direction)
 - Data Modeling (star schema approach)
+- Scheduled Refresh & gateway authentication
+
+
+#### SQL Concepts Applied
+
+- Writing SQL
+- Importing data into ssms
+- Joins
+- Creating New Database 
+
 
 ## Key Focus Areas:
 - Data Sourcing
