@@ -202,6 +202,8 @@ To enable scheduled refreshes, so the dashboard can automatically update when ne
 
 ### Results & Recommendations
 
+### Project is still in progress, 1-2 pages will be added to the Power Bi report.
+
 
 
 
