@@ -202,7 +202,24 @@ To enable scheduled refreshes, so the dashboard can automatically update when ne
 
 ### Results & Recommendations
 
-### Project is still in progress, 1-2 pages will be added to the Power Bi report.
+The dashboard successfully centralized vulnerability data generated from security scans conducted using Nessus and visualized the results using Microsoft Power BI. By consolidating the data into a single interactive dashboard, the project improved visibility into the organization’s vulnerability landscape.
+
+Several key findings emerged from the analysis:
+
+1. Vulnerabilities were concentrated in specific asset categories.
+BYOD devices accounted for a large portion of detected vulnerabilities due to inconsistent patching and user-managed configurations. Critical servers also showed exposure to high-severity vulnerabilities that required immediate remediation.
+
+2. High and critical vulnerabilities represented the greatest risk to the organization.
+The dashboard highlighted a subset of vulnerabilities categorized as critical or high severity, which could potentially lead to system compromise if left unpatched.
+
+3. Network segmentation revealed different risk levels.
+Systems located in the DMZ showed exposure to externally facing risks, making them high-priority assets for remediation.
+
+4. Visibility gaps previously slowed decision making.
+Before the dashboard, vulnerability data existed in large raw scan outputs that were difficult to interpret. The dashboard enabled faster identification of vulnerable assets and improved prioritization of remediation efforts.
+
+Overall, the dashboard improved the ability of security teams to identify vulnerable systems, prioritize high-risk vulnerabilities, and track remediation progress across different asset categories.
+
 
 
 
