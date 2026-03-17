@@ -200,7 +200,7 @@ To enable scheduled refreshes, so the dashboard can automatically update when ne
 ![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/GateWayInstallation%26SuccessRefresh.pptx.png)
 
 
-### Results & Recommendations
+### Results & Findings
 
 The dashboard successfully centralized vulnerability data generated from security scans conducted using Nessus and visualized the results using Microsoft Power BI. By consolidating the data into a single interactive dashboard, the project improved visibility into the organization’s vulnerability landscape.
 
@@ -220,6 +220,30 @@ Before the dashboard, vulnerability data existed in large raw scan outputs that 
 
 Overall, the dashboard improved the ability of security teams to identify vulnerable systems, prioritize high-risk vulnerabilities, and track remediation progress across different asset categories.
 
+### Recommendations
+
+Based on the analysis, several improvements can strengthen the organization’s vulnerability management process.
+
+1. Prioritize remediation of critical vulnerabilities.
+Security teams should focus on resolving vulnerabilities with high severity scores first, particularly those affecting critical servers and externally accessible systems.
+
+2. Improve patch management processes.
+Automated patch management tools should be implemented to ensure vulnerabilities are remediated within defined timeframes.
+
+3. Strengthen security controls for BYOD devices.
+BYOD systems should be monitored through stronger endpoint security policies, including mandatory updates and device compliance checks.
+
+4. Integrate continuous monitoring.
+Integrating the dashboard with additional security data sources such as threat intelligence feeds and vulnerability APIs can improve real-time risk visibility.
+
+5. Use dashboards in security decision making.
+Security operations teams should regularly review vulnerability trends to identify recurring risks and improve overall security posture.
+
+
+### Conclusion
+
+By Centralizing vulnerability data from Nessus into an interactive dashboard using Microsoft Power BI, improved visibility across servers, DMZ, and BYOD.
+Enabling rapid identification of high$critical risk assets and streamlined remediation tracking, supporting faster decision-making and a more proactive cybersecurity posture.
 
 
 
