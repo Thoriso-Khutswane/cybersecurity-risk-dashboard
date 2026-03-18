@@ -171,7 +171,8 @@ In the dashboard it is observed that all IP Addresses in the asset inventory hav
 - Vulnerabilities By Severity:
 
 ![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/VulnerabilityBySeverity.png)
- In the dashboard it clear that vulnerabilities are categorized into low, medium, high, and critical severity. It is observed that there are 80 low vulns, 220 medium, 300 high, and 400 critical.
+
+In the dashboard it clear that vulnerabilities are categorized into low, medium, high, and critical severity. It is observed that there are 80 low vulns, 220 medium, 300 high, and 400 critical.
 
 - Filter by Business Unit:
 
