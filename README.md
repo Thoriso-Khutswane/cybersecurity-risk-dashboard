@@ -143,7 +143,7 @@ In the dashboard it is observed that the remiation rate of the Nessus vulnerabil
 MTTR =
 AVERAGE(Fact_Vulnerabilities[RemediationDays])
 ```
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/MeanTimeToRemediate.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/MeanTimeToRemediate.png)
 
 It took cyber security professionals average of 3 days to remediate 884 vulnerablities
 
