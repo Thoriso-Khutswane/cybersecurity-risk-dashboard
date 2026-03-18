@@ -86,16 +86,16 @@ ORDER BY v.Severity DESC, v.CVSSScore DESC;
 - Connected Power BI to SQL Server to extract vulnerability and asset inventory data for analysis
 - I followed a star-schema approach, separating fact table from dimension tables, The Fact_Vulnerabilities table is the Fact table and other tables are dimension tables.
 
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/DataModel2.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/DataModel2.png)
 
 - I also paid a closer attension to relationships,cardinality and filter directions to avoid confusion
 
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Relationships%26Cardinality.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/Relationships%26Cardinality.png)
 
   
 
 ### Data Analysis and Visuals
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/ExecutiveOverview.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/ExecutiveOverview.png)
 
 In the dashboard above it is clear that , I created measures to calculate the number of critical vulnerabilities, number of remediated vulnerabilities, remediation rate,  mean time to remediate, created a new table(Assets) and an an extra column in all dimension table called (Asset Type).
    
@@ -107,7 +107,7 @@ COUNT(Fact_Vulnerabilities[VulnerabilityName]),
 Fact_Vulnerabilities[Severity] = "Critical"
 )
 ```
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Total%26CriticalVulns.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/Total%26CriticalVulns.png)
 
 In the dashboard it is observed that the total number of critical vulnerabilities is equal to 1000, and the total number of critical vulnerabilities is equals to 300. 
 
@@ -120,7 +120,7 @@ COUNT(Fact_Vulnerabilities[VulnerabilityName]),
 Fact_Vulnerabilities[Status] = "Remediated"
 )
 ```
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/Remediated.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/Remediated.png)
 
 In the dashboard it is observed that the total number of remediated vulnerabilities is 884, leaving 116 systems still exposed.
 
@@ -133,7 +133,7 @@ DIVIDE([Remediated],
 COUNT(Fact_Vulnerabilities[VulnerabilityName])
 )
 ```
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/RemediationRate.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/RemediationRate.png)
 
 In the dashboard it is observed that the remiation rate of the Nessus vulnerabilities is 88.4%.
 - Mean Time to Remediate (MTTR):
@@ -163,19 +163,19 @@ SELECTCOLUMNS(Dim_DMZ,"Asset Type","DMZ System","IP",Dim_DMZ[IPAddress]),
 SELECTCOLUMNS(Dim_BYOD_Devices,"Asset Type","BYOD Device","IP",Dim_BYOD_Devices[IPAddress])
 )
 ```
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/VulnsByAssetType.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/VulnsByAssetType.png)
 
 In the dashboard it is observed that all IP Addresses in the asset inventory have been scanned.  
 
 
 - Vulnerabilities By Severity:
 
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/VulnerabilityBySeverity.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/VulnerabilityBySeverity.png)
  In the dashboard it clear that vulnerabilities are categorized into low, medium, high, and critical severity. It is observed that there are 80 low vulns, 220 medium, 300 high, and 400 critical.
 
 - Filter by Business Unit:
 
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/FilterBuBusinessUnit.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/FilterBuBusinessUnit.png)
 
 
 You can filter based on the business units which are finance, health, marketing and IT.
@@ -190,14 +190,14 @@ N.B Keep in mind that this model can always be enhanced based on user feedback, 
 To create a workspace I used the following method:
 
 
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/WorkSpaceCreationSteps.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/WorkSpaceCreationSteps.png)
 
 
 To enable scheduled refreshes, so the dashboard can automatically update when new data is addedd, I used the following method:
 
 
 
-![bar plot](https://github.com/Thoriso-Khutswane/PrivateImagesForAllRepos/blob/main/GateWayInstallation%26SuccessRefresh.pptx.png)
+![bar plot](https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/GateWayInstallation%26SuccessRefresh.pptx.png)
 
 
 ### Results & Findings
