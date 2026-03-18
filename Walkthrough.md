@@ -4,8 +4,7 @@
 <br />
 
 2. Generating CSV files using python: <br/>
-<img src="https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/GeneratingCSVFilesForCybersecurityRiskDashboard.png
-"/>
+<img src="https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/GeneratingCSVFilesForCybersecurityRiskDashboard.png"/>
 <br />
 <br />
 
