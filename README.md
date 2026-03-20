@@ -32,7 +32,7 @@ Created a centralized dashboard connecting Nessus vulnerability data with compan
 
 ### Data Sources
 
-Simulated Data: In  the real I used real data obtained from real scans and other datasources such as sharepoint lists, but in this project we  used simulated data generated using python "Run: python generate_csv_files.py", generate_csv_files.py being the script. Running this script generated 4 files which are:
+Simulated Data: In  the real world I used real data obtained from real scans and other datasources such as sharepoint lists, but in this project we  used simulated data generated using python "Run: python generate_csv_files.py", generate_csv_files.py being the script. Running this script generated 4 files which are:
 - Fact_Vulnerabilities.csv with 1000 (Fact Table)
 - Dim_Critical_Servers.csv with 100(Dimention Table)
 - Dim_DMZ.csv with 134 (Dimention Table)
