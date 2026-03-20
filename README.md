@@ -1,4 +1,4 @@
-# Cybersecurity Risk & Vulnerability Management Dashboard
+# IT-Risk & Vulnerability Management Dashboard
 
 ## Overview
 This project showcases my previous working experience as an  IT Risk Data Analyst Associate at Momentum Group, focusing on  developing a real-time vulnerability visibility dashboard for risk teams.
