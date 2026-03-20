@@ -37,7 +37,7 @@
 4. Data Intergration and Data Modelling: <br/>
 
 - Get Data: 
-<img src="https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/DataIntergration.png"/>
+<img src="https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/DataIntergration(2).png"/>
 <br />
 
 -Pay a close attension to Relationships & Cardinality:
