@@ -25,6 +25,8 @@
 <br />
 
 - Conduct Data Inspections(There are no unmanaged assets, the table is empty):
+
+  If Unmanaged contact the business unit, or initiate shutdown:
 <img src="https://github.com/Thoriso-Khutswane/Cybersecurity-Risk-Vulnerability-Management-Dashboard/blob/main/Images/Inspections.png"/>
 <br />
 <br />
