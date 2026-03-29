@@ -27,7 +27,14 @@ This project showcases my previous working experience as an  IT Risk Data Analys
 
 ### Business Context
 ---
-Created a centralized dashboard connecting Nessus vulnerability data with company asset inventory (Critical Servers, DMZ zones, BYOD devices). Enabled risk managers to identify, prioritize, and remediate vulnerabilities faster.
+Organizations often conduct regular vulnerability scans using tools like Nessus to identify security weaknesses across servers, network zones, and endpoint devices. However, these scans generate large volumes of vulnerability data, making it difficult for risk managers and security teams to quickly interpret the results. Without a centralized view, vulnerability data is often scattered across reports and spreadsheets. This lack of visibility makes it challenging to:
+
+- Identify which assets are most vulnerable
+- Prioritize critical security risks
+- Monitor remediation progress across systems
+- Understand the overall security posture of the organization
+
+I created a centralized dashboard connecting Nessus vulnerability data with company asset inventory (Critical Servers, DMZ zones, BYOD devices). Enabled risk managers to identify, prioritize, and remediate vulnerabilities faster.
 
 
 ### Data Sources
