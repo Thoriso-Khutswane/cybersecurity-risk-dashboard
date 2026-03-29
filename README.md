@@ -13,7 +13,7 @@ Organizations often conduct regular vulnerability scans using tools like Nessus 
 - Monitor remediation progress across systems
 - Understand the overall security posture of the organization
 
-I created a centralized dashboard connecting Nessus vulnerability data with company asset inventory (Critical Servers, DMZ zones, BYOD devices). Enabled risk managers to identify, prioritize, and remediate vulnerabilities faster.
+As a result, security teams may struggle to efficiently analyze vulnerability data and respond to risks in a timely manner. I created a centralized dashboard connecting Nessus vulnerability data with company asset inventory (Critical Servers, DMZ zones, BYOD devices). Enabled risk managers to identify, prioritize, and remediate vulnerabilities faster.
 
 #### Power Bi Concepts Applied
 - Dax, Measures
