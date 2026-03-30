@@ -1,7 +1,7 @@
 # IT-Risk & Vulnerability Management Dashboard
 
 ## Overview
-This project simulates my previous working experience as an  IT Risk Data Analyst Associate at Momentum Group, focusing on  developing a real-time vulnerability visibility dashboard for risk teams.
+This project simulates my previous working experience as an  IT Risk Data Analyst Associate at Momentum Group, focusing on  developing a real-time vulnerability visibility dashboard for risk teams across the organization.
 
 
 ### Business Context
